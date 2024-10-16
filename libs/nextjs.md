@@ -1,0 +1,15 @@
+### Barrel Fileのメリットデメリット
+- barrelファイルとは
+  - 複数のモジュールから1つの便利なモジュールにエクスポートをロールアップする方法
+- メリット
+  - import文が綺麗になる
+  - モジュールの使用側でモジュール内の変更を検知する必要がない
+- デメリット
+  - モジュールの依存関係が複雑になる（循環参照になる可能性）
+  - パフォーマンスの低下
+- まとめ
+  - 通常のアプリケーション開発では使用しない方がいい。パッケージやライブラリ開発などでは意味がある
+  - 参考
+    - https://typescript-jp.gitbook.io/deep-dive/main-1/barrel
+    - https://tkdodo.eu/blog/please-stop-using-barrel-files
+    - https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
