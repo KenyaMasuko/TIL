@@ -1,0 +1,2 @@
+### VSCodeとNeovim
+- 以前までVSCodeとNeovimを併用して使用していたが、最近は併用をやめていた。理由はVSCodeにNeovim拡張を入れると表示がバグり、操作がままならないから。だけどNeovim自体の設定ファイルである、init.luaを削除したら綺麗に表示されるようになった。VSCodeとNeovimの競合が問題だったぽい
